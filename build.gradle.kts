@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "io.github.dead8309"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -21,7 +21,7 @@ kotlin {
             dependencies {
                 implementation(libs.kotlin.wrappers.react)
                 implementation(libs.kotlin.wrappers.react.dom)
-                implementation(devNpm("lucide-react","0.215.0"))
+                implementation(npm("lucide-react","0.309.0"))
             }
         }
 
